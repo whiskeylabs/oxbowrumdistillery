@@ -1,0 +1,140 @@
+/* CSS Custom Overrides
+finder_body
+finder_header
+finder
+finder_brands
+finder_table
+finder_thead
+finder_tbody
+finder_row_a
+finder_row_b
+finder_num
+finder_dba
+finder_map
+finder_miles
+finder_address
+finder_phone
+#finderMarkerLayer img can be used to alter the map pinpoints vipcopyright table element; contains VIP logo and copyright;
+we appreciate you keeping this visible*/
+
+/*Remove Backgrounds*/
+body #finder_body {
+	background: transparent;
+}
+
+.tab-pane
+    background: transparent;
+    box-shadow: none;
+}
+
+.panel-footer {
+	display: none;
+}
+
+.panel {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/*Update Tab Links*/
+#finder_form_tab a 
+{
+	color: #231f20;
+    text-transform: uppercase;
+    font-family: henderson-sans-basic, sans-serif;
+    font-size: 18px;
+    box-shadow: none;	
+    border-bottom: 2px solid #e9b854;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#finder_list_tab .nav-tabs>li>a {
+    margin-right: 0;
+    background-color: transparent;
+    border: none;
+    transition: all 0.2s;
+    color: #ababab;
+    text-transform: uppercase;
+    font-family: henderson-sans-basic, sans-serif;
+    font-size: 18px;
+    box-shadow: none;
+    border-bottom: 2px solid #ababab;
+    padding-left: 0;
+}
+
+#finder_map_tab.active a, #finder_map_tab.active a:focus, #finder_list_tab .nav-tabs>li>a:focus {
+	color: #231f20;
+    text-transform: uppercase;
+    font-family: henderson-sans-basic, sans-serif;
+    font-size: 18px;
+    box-shadow: none;	
+    border-bottom: 2px solid #e9b854;
+    padding-left: 0;
+}
+
+/*Set Form Size*/
+#tab-form {
+	width: 100%;
+}
+
+
+form label {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #231f20;
+    font-family: henderson-sans-basic, sans-serif;
+}
+
+select,input {
+	color: #231f20;
+    font-size: 18px;
+    border-bottom: 1px solid #686868;
+    box-shadow: none;
+    height: 100%;
+    padding: 10px 20px 10px 0px;
+}
+
+select, select.form-control {
+	color: #231f20;
+}
+
+input[type="submit"],.search.btn.btn-raised.btn-primary.btn,#submitBtn {
+	background-color: #e9b854;
+    box-shadow: none;
+    transition: background-color 200ms ease;
+    font-family: henderson-sans-basic, sans-serif;
+    color: #231f20;
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 1;
+    max-width: 250px;
+    min-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary:focus {
+	border: none;
+}
+
+.finder-map-info h1 {
+    color: #231f20;
+}
+
+.finder-map-info-address, {
+	color: black;
+    padding: 10px 0;
+}
+
+
